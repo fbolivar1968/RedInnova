@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
+
+    /* Corporate Orange - RGB(255, 131, 0) */
+    --primary: 31 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 31 100% 65%;
+
+    /* Corporate Blue - RGB(0, 48, 100) */
+    --secondary: 209 100% 20%;
+    --secondary-foreground: 0 0% 100%;
+    --secondary-light: 209 100% 35%;
+
+    --muted: 220 13% 91%;
+    --muted-foreground: 220 9% 46%;
+
+    --accent: 31 100% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 85%;
+    --input: 220 13% 91%;
+    --ring: 31 100% 50%;
+
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(31 100% 50%), hsl(31 100% 65%));
+    --gradient-space: linear-gradient(180deg, hsl(209 100% 10%), hsl(0 0% 0%));
+    --gradient-hero: linear-gradient(135deg, hsl(209 100% 20%), hsl(31 100% 50%));
+    
+    /* Shadows */
+    --shadow-glow-orange: 0 0 40px hsl(31 100% 50% / 0.3);
+    --shadow-glow-blue: 0 0 40px hsl(209 100% 50% / 0.2);
+    --shadow-elegant: 0 10px 40px -10px hsl(0 0% 0% / 0.3);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 0 0% 5%;
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 8%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 31 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 31 100% 65%;
+
+    --secondary: 209 100% 30%;
+    --secondary-foreground: 0 0% 100%;
+    --secondary-light: 209 100% 45%;
+
+    --muted: 220 13% 15%;
+    --muted-foreground: 220 9% 65%;
+
+    --accent: 31 100% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 220 13% 20%;
+    --input: 220 13% 15%;
+    --ring: 31 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+  
+  body {
+    font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer utilities {
+  .glow-orange {
+    box-shadow: var(--shadow-glow-orange);
+  }
+  
+  .glow-blue {
+    box-shadow: var(--shadow-glow-blue);
+  }
+  
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+
+  .bg-gradient-space {
+    background: var(--gradient-space);
+  }
+
+  .bg-gradient-hero {
+    background: var(--gradient-hero);
+  }
+}
