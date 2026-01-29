@@ -10,7 +10,7 @@ const equipos = [
     id: 1,
     name: "Equipo Comex_24/7 ✈️🚢",
     improvement: "Optimización del proceso de recepción de materiales para reducir tiempos de espera en almacén",
-    progress: 17,
+    progress: 23,
     Link: "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgDbo3H7s8diSqxId4A6k13tAZORcVNhfkuAbSL08703l5w?e=dxiSik"
   },
   {
