@@ -3,16 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Header from "@/components/Header";
 import ProjectTimelineDm from "@/components/ProjectTimelineDm";
-import BenefitsSection from "@/components/BenefitsSection";
 import orangePlanet from "@/assets/orange-planet.png";
 import EquipoDm from "@/assets/Equipo-DataMaster.png";
-import { Users, DatabaseZap, FolderOpen, Award } from "lucide-react";
-import {
-    Accordion,
-    AccordionContent,
-    AccordionItem,
-    AccordionTrigger,
-} from "@/components/ui/accordion";
+import { Users, DatabaseZap, FolderOpen} from "lucide-react";
 import BenefitDM from "@/components/BenefitDm";
 
 
@@ -37,7 +30,7 @@ const ProjectDataMaster = () => {
                         <Button
                             variant="ghost"
                             onClick={() => navigate("/projects")}
-                            className="text-white hover:text-primary"
+                            className="text-white hover:text-white"
                         >
                             ← Volver a proyectos
                         </Button>

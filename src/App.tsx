@@ -11,6 +11,8 @@ import RegisterIdea from "./pages/RegisterIdea";
 import NotFound from "./pages/NotFound";
 import ProjectDataMaster from "./pages/DataMaster";
 import ProjectProgressDm from "./pages/ProjectProgressDm";
+import ProjectProgressGh from "./pages/ProjectProgressGh";
+import ProjectGh from "./pages/GH";
 
 const queryClient = new QueryClient();
 
@@ -22,12 +24,15 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/project/gh" element={<ProjectGh />} />
           <Route path="/projects" element={<ProjectList />} />
           <Route path="/project/dm" element={<ProjectDataMaster />} />
           <Route path="/project/:projectId" element={<ProjectDetail />} />
+          <Route path="/progressGh" element={<ProjectProgressGh />} />
           <Route path="/progressDm" element={<ProjectProgressDm />} />
           <Route path="/progress" element={<ProjectProgress />} />
           <Route path="/register-idea" element={<RegisterIdea />} />
+
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

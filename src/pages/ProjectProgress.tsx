@@ -9,28 +9,28 @@ const equipos = [
   {
     id: 1,
     name: "Equipo Comex_24/7 ✈️🚢",
-    improvement: "Optimización del proceso de recepción de materiales para reducir tiempos de espera en almacén",
-    progress: 23,
+    improvement: "Diseñar e implementar una plataforma colaborativa en la nube que centralice y estandarice la información de compras internacionales y operaciones logísticas (importaciones, exportaciones, nacionales y urbanas), permitiendo la trazabilidad end-to-end desde la orden de compra u orden de venta hasta la entrega final, con acceso en línea y en tiempo real para todos los usuarios internos.",
+    progress: 35,
     Link: "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgDbo3H7s8diSqxId4A6k13tAZORcVNhfkuAbSL08703l5w?e=dxiSik"
   },
   {
     id: 2,
     name: "Equipo 60-63 HRC-Los duros 🔨",
-    improvement: "Implementación de metodología 5S en área de producción para mejorar eficiencia operacional",
-    progress: 23,
+    improvement: "El proyecto busca estandarizar la forma de recepción y registro de solicitudes, reduciendo tiempos muertos y aumentando la eficiencia del equipo ",
+    progress: 35,
     Link: "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgCxrVngZXfrQaq9APAJoiUnATA6GaOSvnesREB_ZyYB5Wk?e=oJt3nv"
   },
   {
     id: 3,
     name: "GTRD 🧠",
-    improvement: "Digitalización del proceso de control de calidad para acelerar la detección de no conformidades",
-    progress: 17,
+    improvement: "-",
+    progress: 20,
     Link: "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgAJwEyHnyx4SaCXZc3LA-riAd82GoDoirCoDne_jp7i9xk?e=Va4saI"
   },
   {
     id: 4,
     name: "Los calientes ♨️",
-    improvement: "Reducción de movimientos innecesarios en línea de ensamble mediante redistribución de estaciones",
+    improvement: "Sin establecer",
     progress: 17,
     Link: "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgA9XtDQDJLwSokvdRAj12sAAcPOzSt5SAI6h66ITAIK3lE?e=PMsC6E"
   },
@@ -49,7 +49,7 @@ const ProjectProgress = () => {
           <Button
             variant="ghost"
             onClick={() => navigate("/project/ofv")}
-            className="mb-8 text-white hover:text-primary"
+            className="mb-8 text-white hover:text-white"
           >
             ← Volver al proyecto
           </Button>
@@ -93,7 +93,7 @@ const ProjectProgress = () => {
                   <Button
                     variant="outline"
                     onClick={() => window.open(team.Link, "_blank")}
-                    className="text-primary hover:text-primary/80"
+                    className="text-primary hover:text-white"
                   >
                     Acceder al espacio de trabajo
                   </Button>

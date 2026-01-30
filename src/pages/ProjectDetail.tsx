@@ -34,7 +34,7 @@ const ProjectDetail = () => {
             <Button
               variant="ghost"
               onClick={() => navigate("/projects")}
-              className="text-white hover:text-primary"
+              className="text-white hover:text-white"
             >
               ← Volver a proyectos
             </Button>
