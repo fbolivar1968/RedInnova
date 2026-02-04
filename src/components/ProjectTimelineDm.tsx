@@ -23,8 +23,8 @@ const stages: TimelineStage[] = [
   },
   {
     stage: 3,
-    title: "Fase 3: Implementación y Mejora Continua Controlar y Estandarizar",
-    objective: "Formalizar la mejora para mantener los procesos en el tiempoDesarrollo de herramientas para el cambio de estructura de los datos.",
+    title: "Fase 3: Implementación y Mejora Continua",
+    objective: "Formalizar la mejora para mantener los procesos en el tiempo de Desarrollo de herramientas para el cambio de estructura de los datos.",
     icon: <Calendar className="h-8 w-8" />,
   },
 ];

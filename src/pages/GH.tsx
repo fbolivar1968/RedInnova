@@ -2,11 +2,11 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Header from "@/components/Header";
-import ProjectTimelineDm from "@/components/ProjectTimelineDm";
 import orangePlanet from "@/assets/orange-planet.png";
 import EquipoGIM from "@/assets/EquipoGIM.png";
 import { Users, TriangleAlert, Warehouse } from "lucide-react";
 import BenefitGh from "@/components/BenefitGh";
+import ProjectTimelineGh from "@/components/ProjectTimelineGh";
 
 
 const ProjectGh = () => {
@@ -60,7 +60,7 @@ const ProjectGh = () => {
 
                     {/* Timeline */}
                     <div className="mb-16">
-                        <ProjectTimelineDm />
+                        <ProjectTimelineGh />
                     </div>
 
                     {/* Important Information */}
