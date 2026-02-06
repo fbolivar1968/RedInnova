@@ -23,15 +23,17 @@ const equipos = [
   {
     id: 3,
     name: "GTRD 🧠",
-    improvement: "-",
-    progress: 20,
+    improvement: `Definir e implementar políticas de fabricación claras, consensuadas y técnicamente viables, alineadas entre ingeniería, fabricación (procesos), servicios y 
+    Ops que establezcan criterios estándar de proceso desde la etapa de diseño. Esto permitirá reducir reprocesos en planos, minimizar cambios tardíos por ajustes de proceso, 
+    disminuir retrabajos en fabricación y mejorar la estabilidad y confiabilidad del flujo productivo. `,
+    progress: 35,
     Link: "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgAJwEyHnyx4SaCXZc3LA-riAd82GoDoirCoDne_jp7i9xk?e=Va4saI"
   },
   {
     id: 4,
     name: "Los calientes ♨️",
-    improvement: "Sin establecer",
-    progress: 17,
+    improvement: "Disminuir los tiempos de montaje para aumentar la productividad y rapidez de entrega de cara al cliente ",
+    progress: 35,
     Link: "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgA9XtDQDJLwSokvdRAj12sAAcPOzSt5SAI6h66ITAIK3lE?e=PMsC6E"
   },
 
