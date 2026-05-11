@@ -11,14 +11,14 @@ const equipos = [
     name: "Equipo Comex_24/7 ✈️🚢",
     improvement: "Diseñar e implementar una plataforma colaborativa en la nube que centralice y estandarice la información de compras internacionales y operaciones logísticas (importaciones, exportaciones, nacionales y urbanas), permitiendo la trazabilidad end-to-end desde la orden de compra u orden de venta hasta la entrega final, con acceso en línea y en tiempo real para todos los usuarios internos.",
     progress: 100,
-    Link: "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgDbo3H7s8diSqxId4A6k13tAZORcVNhfkuAbSL08703l5w?e=dxiSik"
+    Link: "https://forjasbolivar.sharepoint.com/:f:/r/sites/POSEIDON/Innovacin/Innovacion/00-Proyectos/_2025/EP_Eficiencia%20y%20Productividad/10.%20TiemposMuertos/2_Dllo_Producto/02_Plan%20de%20acci%C3%B3n/Reto30-60-90/Equipo_Comex_24_7?csf=1&web=1&e=smm7hU"
   },
   {
     id: 2,
     name: "Equipo 60-63 HRC-Los duros 🔨",
     improvement: "El proyecto busca estandarizar la forma de recepción y registro de solicitudes, reduciendo tiempos muertos y aumentando la eficiencia del equipo ",
-    progress: 92,
-    Link: "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgCxrVngZXfrQaq9APAJoiUnATA6GaOSvnesREB_ZyYB5Wk?e=oJt3nv"
+    progress: 93,
+    Link: "https://forjasbolivar.sharepoint.com/:f:/r/sites/POSEIDON/Innovacin/Innovacion/00-Proyectos/_2025/EP_Eficiencia%20y%20Productividad/10.%20TiemposMuertos/2_Dllo_Producto/02_Plan%20de%20acci%C3%B3n/Reto30-60-90/Equipo_%2060-63HRC-Los%20duros?csf=1&web=1&e=8iYbdl"
   },
   {
     id: 3,
@@ -26,15 +26,15 @@ const equipos = [
     improvement: `Definir e implementar políticas de fabricación claras, consensuadas y técnicamente viables, alineadas entre ingeniería, fabricación (procesos), servicios y 
     Ops que establezcan criterios estándar de proceso desde la etapa de diseño. Esto permitirá reducir reprocesos en planos, minimizar cambios tardíos por ajustes de proceso, 
     disminuir retrabajos en fabricación y mejorar la estabilidad y confiabilidad del flujo productivo. `,
-    progress: 78,
-    Link: "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgAJwEyHnyx4SaCXZc3LA-riAd82GoDoirCoDne_jp7i9xk?e=Va4saI"
+    progress: 82,
+    Link: "https://forjasbolivar.sharepoint.com/:f:/r/sites/POSEIDON/Innovacin/Innovacion/00-Proyectos/_2025/EP_Eficiencia%20y%20Productividad/10.%20TiemposMuertos/2_Dllo_Producto/02_Plan%20de%20acci%C3%B3n/Reto30-60-90/Equipo_GTRD?csf=1&web=1&e=J3lnk0"
   },
   {
     id: 4,
     name: "Los calientes ♨️",
     improvement: "Reducir el tiempo de ciclo del proceso de montajes en caliente en la sección de Forja mediante la estandarización, documentación y socialización del conocimiento técnico, logrando una disminución sostenida de los tiempos de montaje, reprocesos y tiempos de capacitación, para incrementar la eficiencia operativa, mejorar el cumplimiento en las entregas y aumentar la satisfacción del cliente a través de decisiones basadas en datos y experiencias previas del proceso. ",
-    progress: 97,
-    Link: "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgA9XtDQDJLwSokvdRAj12sAAcPOzSt5SAI6h66ITAIK3lE?e=PMsC6E"
+    progress: 98,
+    Link: "https://forjasbolivar.sharepoint.com/:f:/r/sites/POSEIDON/Innovacin/Innovacion/00-Proyectos/_2025/EP_Eficiencia%20y%20Productividad/10.%20TiemposMuertos/2_Dllo_Producto/02_Plan%20de%20acci%C3%B3n/Reto30-60-90/Equipo_Los%20calientes?csf=1&web=1&e=f4TwZE"
   },
 
 ];
