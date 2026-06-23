@@ -36,6 +36,19 @@ const equipos = [
     progress: 98,
     Link: "https://forjasbolivar.sharepoint.com/:f:/r/sites/POSEIDON/Innovacin/Innovacion/00-Proyectos/_2025/EP_Eficiencia%20y%20Productividad/10.%20TiemposMuertos/2_Dllo_Producto/02_Plan%20de%20acci%C3%B3n/Reto30-60-90/Equipo_Los%20calientes?csf=1&web=1&e=f4TwZE"
   },
+<<<<<<< HEAD
+=======
+  {
+    id: 5,
+    name: "Costos 🤑",
+    improvement: `Busca reducir la manualidad en la generación de informes de costos, 
+                  especialmente el Informe de Costos Mensual general por producto entregado al cliente, 
+                  que actualmente requiere descargar datos brutos de PSL, manipularlos extensamente en Excel, 
+                  añadir fórmulas y columnas manuales, realizar conciliaciones y crear visualizaciones.`,
+    progress: 10,
+    Link: "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgC6lvUwnmaCSJsYSbslxnTwAfuth8aBao-8D2F7IbmInTs?e=TqM9Ev"
+  },
+>>>>>>> 4ff9c6b (Task: Add new Project team to ProjectProgess.tsx)
 
 ];
 
