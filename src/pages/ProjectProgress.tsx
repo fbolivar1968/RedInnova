@@ -8,36 +8,6 @@ import { Users } from "lucide-react";
 const equipos = [
   {
     id: 1,
-    name: "Equipo Comex_24/7 ✈️🚢",
-    improvement: "Diseñar e implementar una plataforma colaborativa en la nube que centralice y estandarice la información de compras internacionales y operaciones logísticas (importaciones, exportaciones, nacionales y urbanas), permitiendo la trazabilidad end-to-end desde la orden de compra u orden de venta hasta la entrega final, con acceso en línea y en tiempo real para todos los usuarios internos.",
-    progress: 100,
-    Link: "https://forjasbolivar.sharepoint.com/:f:/r/sites/POSEIDON/Innovacin/Innovacion/00-Proyectos/_2025/EP_Eficiencia%20y%20Productividad/10.%20TiemposMuertos/2_Dllo_Producto/02_Plan%20de%20acci%C3%B3n/Reto30-60-90/Equipo_Comex_24_7?csf=1&web=1&e=smm7hU"
-  },
-  {
-    id: 2,
-    name: "Equipo 60-63 HRC-Los duros 🔨",
-    improvement: "El proyecto busca estandarizar la forma de recepción y registro de solicitudes, reduciendo tiempos muertos y aumentando la eficiencia del equipo ",
-    progress: 93,
-    Link: "https://forjasbolivar.sharepoint.com/:f:/r/sites/POSEIDON/Innovacin/Innovacion/00-Proyectos/_2025/EP_Eficiencia%20y%20Productividad/10.%20TiemposMuertos/2_Dllo_Producto/02_Plan%20de%20acci%C3%B3n/Reto30-60-90/Equipo_%2060-63HRC-Los%20duros?csf=1&web=1&e=8iYbdl"
-  },
-  {
-    id: 3,
-    name: "GTRD 🧠",
-    improvement: `Definir e implementar políticas de fabricación claras, consensuadas y técnicamente viables, alineadas entre ingeniería, fabricación (procesos), servicios y 
-    Ops que establezcan criterios estándar de proceso desde la etapa de diseño. Esto permitirá reducir reprocesos en planos, minimizar cambios tardíos por ajustes de proceso, 
-    disminuir retrabajos en fabricación y mejorar la estabilidad y confiabilidad del flujo productivo. `,
-    progress: 82,
-    Link: "https://forjasbolivar.sharepoint.com/:f:/r/sites/POSEIDON/Innovacin/Innovacion/00-Proyectos/_2025/EP_Eficiencia%20y%20Productividad/10.%20TiemposMuertos/2_Dllo_Producto/02_Plan%20de%20acci%C3%B3n/Reto30-60-90/Equipo_GTRD?csf=1&web=1&e=J3lnk0"
-  },
-  {
-    id: 4,
-    name: "Los calientes ♨️",
-    improvement: "Reducir el tiempo de ciclo del proceso de montajes en caliente en la sección de Forja mediante la estandarización, documentación y socialización del conocimiento técnico, logrando una disminución sostenida de los tiempos de montaje, reprocesos y tiempos de capacitación, para incrementar la eficiencia operativa, mejorar el cumplimiento en las entregas y aumentar la satisfacción del cliente a través de decisiones basadas en datos y experiencias previas del proceso. ",
-    progress: 98,
-    Link: "https://forjasbolivar.sharepoint.com/:f:/r/sites/POSEIDON/Innovacin/Innovacion/00-Proyectos/_2025/EP_Eficiencia%20y%20Productividad/10.%20TiemposMuertos/2_Dllo_Producto/02_Plan%20de%20acci%C3%B3n/Reto30-60-90/Equipo_Los%20calientes?csf=1&web=1&e=f4TwZE"
-  },
-  {
-    id: 5,
     name: "Costos 🤑",
     improvement: `Busca reducir la manualidad en la generación de informes de costos, 
                   especialmente el Informe de Costos Mensual general por producto entregado al cliente, 
@@ -46,6 +16,56 @@ const equipos = [
     progress: 10,
     Link: "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgC6lvUwnmaCSJsYSbslxnTwAfuth8aBao-8D2F7IbmInTs?e=TqM9Ev"
   },
+  {
+    id: 2,
+    name: "Cartera 💸",
+    improvement: `busca automatizar de punta a punta el proceso semanal de gestión de cartera del área de cuentas por cobrar, 
+                  actualmente manual, repetitivo y dependiente de archivos Excel y de personas clave. La solución integra un pipeline de datos en Python y 
+                  flujos de Power Automate para consolidar información, generar una sábana de datos estandarizada, enviar notificaciones a clientes y 
+                  distribuir informes de recaudo. `,
+    progress: 10,
+    Link: "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgAFCcr63VrgQpef9DAxXjo8ARJ5E-aeP8K5yLkwez_bzkw?e=9fFIJy"
+  },
+  {
+    id: 3,
+    name: "Operaciones PD ⚡",
+    improvement: `El proyecto busca digitalizar y estandarizar la captura, validación y transmisión de información de pedidos comerciales 
+                  hacia Operaciones mediante un formulario digital estructurado. Atiende las inconsistencias frecuentes entre órdenes de compra, 
+                  cotizaciones, fechas, términos y datos clave, que hoy generan verificaciones manuales, retrabajos y retrasos en el procesamiento.`,
+    progress: 10,
+    Link: "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgAeIycrN4mHS59aJQ4n_i5xAcQXOBX-O4CLSR2eslbKXhk"
+  },
+  {
+    id: 4,
+    name: "Equipo Comex_24/7 ✈️🚢",
+    improvement: "Diseñar e implementar una plataforma colaborativa en la nube que centralice y estandarice la información de compras internacionales y operaciones logísticas (importaciones, exportaciones, nacionales y urbanas), permitiendo la trazabilidad end-to-end desde la orden de compra u orden de venta hasta la entrega final, con acceso en línea y en tiempo real para todos los usuarios internos.",
+    progress: 100,
+    Link: "https://forjasbolivar.sharepoint.com/:f:/r/sites/POSEIDON/Innovacin/Innovacion/00-Proyectos/_2025/EP_Eficiencia%20y%20Productividad/10.%20TiemposMuertos/2_Dllo_Producto/02_Plan%20de%20acci%C3%B3n/Reto30-60-90/Equipo_Comex_24_7?csf=1&web=1&e=smm7hU"
+  },
+  {
+    id: 5,
+    name: "Equipo 60-63 HRC-Los duros 🔨",
+    improvement: "El proyecto busca estandarizar la forma de recepción y registro de solicitudes, reduciendo tiempos muertos y aumentando la eficiencia del equipo ",
+    progress: 93,
+    Link: "https://forjasbolivar.sharepoint.com/:f:/r/sites/POSEIDON/Innovacin/Innovacion/00-Proyectos/_2025/EP_Eficiencia%20y%20Productividad/10.%20TiemposMuertos/2_Dllo_Producto/02_Plan%20de%20acci%C3%B3n/Reto30-60-90/Equipo_%2060-63HRC-Los%20duros?csf=1&web=1&e=8iYbdl"
+  },
+  {
+    id: 6,
+    name: "GTRD 🧠",
+    improvement: `Definir e implementar políticas de fabricación claras, consensuadas y técnicamente viables, alineadas entre ingeniería, fabricación (procesos), servicios y 
+    Ops que establezcan criterios estándar de proceso desde la etapa de diseño. Esto permitirá reducir reprocesos en planos, minimizar cambios tardíos por ajustes de proceso, 
+    disminuir retrabajos en fabricación y mejorar la estabilidad y confiabilidad del flujo productivo. `,
+    progress: 82,
+    Link: "https://forjasbolivar.sharepoint.com/:f:/r/sites/POSEIDON/Innovacin/Innovacion/00-Proyectos/_2025/EP_Eficiencia%20y%20Productividad/10.%20TiemposMuertos/2_Dllo_Producto/02_Plan%20de%20acci%C3%B3n/Reto30-60-90/Equipo_GTRD?csf=1&web=1&e=J3lnk0"
+  },
+  {
+    id: 7,
+    name: "Los calientes ♨️",
+    improvement: "Reducir el tiempo de ciclo del proceso de montajes en caliente en la sección de Forja mediante la estandarización, documentación y socialización del conocimiento técnico, logrando una disminución sostenida de los tiempos de montaje, reprocesos y tiempos de capacitación, para incrementar la eficiencia operativa, mejorar el cumplimiento en las entregas y aumentar la satisfacción del cliente a través de decisiones basadas en datos y experiencias previas del proceso. ",
+    progress: 98,
+    Link: "https://forjasbolivar.sharepoint.com/:f:/r/sites/POSEIDON/Innovacin/Innovacion/00-Proyectos/_2025/EP_Eficiencia%20y%20Productividad/10.%20TiemposMuertos/2_Dllo_Producto/02_Plan%20de%20acci%C3%B3n/Reto30-60-90/Equipo_Los%20calientes?csf=1&web=1&e=f4TwZE"
+  },
+
 
 ];
 
