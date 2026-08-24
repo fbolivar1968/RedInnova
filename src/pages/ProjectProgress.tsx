@@ -65,7 +65,7 @@ const equipos = [
     improvement: ` Implementación incremental de un Asistente Inteligente de Cotizaciones que digitalice, estandarice y automatice el proceso actual, 
     incorporando IA para interpretar solicitudes, centralizar conocimiento técnico y asistir la elaboración de ofertas.`,
     progress: 10,
-    Link: "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgDNpy0wrRDLSo_YZXb-Z25FASjvmfRIBZdeOJYPlPzBvo0"
+    Link: "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgD5iNHKp3yTRarQPnqN-4PRAc_Gry9xUrkqtG3t3rxlPM8?e=M6nIe3"
   },
   {
     id: 12,

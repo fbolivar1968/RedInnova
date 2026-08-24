@@ -2,14 +2,13 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Header from "@/components/Header";
-import ProjectTimelineDm from "@/components/ProjectTimelineDm";
 import orangePlanet from "@/assets/orange-planet.png";
-import EquipoDm from "@/assets/Equipo-DataMaster.png";
-import { Users, DatabaseZap, FolderOpen} from "lucide-react";
-import BenefitDM from "@/components/BenefitDm";
+import { Users, DatabaseZap, FolderOpen } from "lucide-react";
+import BenefitRCCP from "@/components/BenefitRCCP";
+import ProjectTimelineRCCP from "@/components/ProjectTimelineRCCP";
 
 
-const ProjectDataMaster = () => {
+const ProjectRCCP = () => {
     const navigate = useNavigate();
 
     return (
@@ -37,7 +36,7 @@ const ProjectDataMaster = () => {
 
                         <Button
                             variant="hero"
-                            onClick={() => navigate("/progressDm")}
+                            onClick={() => navigate("/progressRccp")}
                         >
                             Ver Avance del Proyecto
                         </Button>
@@ -46,22 +45,21 @@ const ProjectDataMaster = () => {
                     {/* Project Header */}
                     <div className="text-center mb-12 animate-fade-in">
                         <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">
-                            Bienvenido al proyecto DataMaster
+                            Bienvenido al proyecto RCCP
                         </h1>
 
                         <Card className="p-8 bg-card/90 backdrop-blur-sm border-2 border-primary/50">
                             <p className="text-lg text-foreground leading-relaxed">
-                                El objetivo de este proyecto es<strong className="text-primary"> Transformar la empresa en una organización impulsada por datos, </strong>
-                                donde cada decisión, desde la línea de producción hasta la alta dirección,
-                                se base en información precisa y en tiempo real a través de la estandarización
-                                de los datos que generan la elaboración de los productos.
+                                El objetivo de este proyecto es migrar de una planeación manual y
+                                reactiva a un modelo proactivo y automatizado que <strong className="text-primary">  reduzca tiempos operativos, mejore la precisión del plan,
+                                    optimice </strong> el uso de la capacidad instalada y disminuya riesgos de incumplimiento.
                             </p>
                         </Card>
                     </div>
 
                     {/* Timeline */}
                     <div className="mb-16">
-                        <ProjectTimelineDm />
+                        <ProjectTimelineRCCP />
                     </div>
 
                     {/* Important Information */}
@@ -73,54 +71,39 @@ const ProjectDataMaster = () => {
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                             <Card className="p-6 bg-card/80 backdrop-blur-sm hover:scale-105 transition-all duration-300 animate-fade-in">
                                 <DatabaseZap className="h-10 w-10 text-primary mb-4" />
-                                <h3 className="text-xl font-bold mb-3 text-foreground">Información sobre los datos</h3>
+                                <h3 className="text-xl font-bold mb-3 text-foreground">Contexto de la oportunidad</h3>
                                 <p className="text-muted-foreground">
-                                    Actualmente hay 48.535 ítems, de los cuales 47.865 están activos. Esto deja 54 ítems obsoletos y 616 inactivos. Además, 705 ítems pertenecen a la categoría de productos terminados, y existen 425 familias para PSL, de las cuales 343 están activas y 82 inactivas.
-                                </p>
+                                    La empresa enfrenta una planeación de capacidad altamente manual y dispersa, basada en Excel, consultas informales y comunicación no estructurada,
+                                    lo que retrasa la validación de carga vs. capacidad y genera una reacción tardía ante cuellos de botella.                                 </p>
                             </Card>
 
                             <Card className="p-6 bg-card/80 backdrop-blur-sm hover:scale-105 transition-all duration-300 animate-fade-in" style={{ animationDelay: "0.1s" }}>
                                 <Users className="h-10 w-10 text-primary mb-4" />
-                                <h3 className="text-xl font-bold mb-3 text-foreground">Formación de un equipo interdisciplinario</h3>
+                                <h3 className="text-xl font-bold mb-3 text-foreground">Intereses de la empresa</h3>
                                 <p className="text-muted-foreground">
-                                    Formación de un equipo interdisciplinario para la ejecución del proyecto, asegurando que se aborden las necesidades y desafíos específicos de la información en cada área.
-                                </p>
+                                    Eficiencia operativa, optimización financiera de costos, mejor cumplimiento al cliente y menor volatilidad del plan para apoyar seguridad y sostenibilidad.                                </p>
                             </Card>
 
                             <Card className="p-6 bg-card/80 backdrop-blur-sm hover:scale-105 transition-all duration-300 animate-fade-in" style={{ animationDelay: "0.2s" }}>
                                 <FolderOpen className="h-10 w-10 text-primary mb-4" />
-                                <h3 className="text-xl font-bold mb-3 text-foreground">Gobernanza de datos</h3>
+                                <h3 className="text-xl font-bold mb-3 text-foreground">Impacto esperado</h3>
                                 <p className="text-muted-foreground">
-                                    Implementar una estrategia de gobernanza de datos permitirá estandarizar los registros,
-                                    mejorar la integridad de los datos en un 30% y reducir los costos y tiempos operativos mediante la automatización de procesos.
+                                    Validar capacidad de forja, mecanizado, soldadura y ensamble en un 100% de RCCP consolidado y validado, usando ITPM,
+                                    datos históricos y validación por responsables de sección, consolidando bases para un plan maestro con restricciones reales,
+                                    entre MVP y despliegue.
                                 </p>
                             </Card>
                         </div>
                     </section>
 
                     {/* Benefits */}
-                    <BenefitDM />
-
-                    {/* Awards */}
-                    <section className="mb-16">
-                        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-primary animate-fade-in">
-                            Equipo de ejecución
-                        </h2>
-
-                        <Card className="p-12 bg-gradient-to-br from-card/95 via-card/90 to-card/95 backdrop-blur-md border-2 border-primary/60 shadow-2xl animate-fade-in">
-                            <div className="flex items-center justify-center gap-6 mt-5 mb-5">
-                                <img src={EquipoDm} alt="Equipo DataMaster" />
-                            </div>
-                        </Card>
-                    </section>
-
-
+                    <BenefitRCCP />
 
                     {/* Call to Action */}
                     <Card className="p-12 bg-gradient-to-br from-primary/20 to-secondary/20 backdrop-blur-sm border-2 border-primary text-center animate-pulse-glow">
 
                         <p className="text-xl text-foreground">
-                            👉 Transformar los datos en decisiones es el primer paso hacia un futuro más eficiente, ágil e innovador, donde cada acción está impulsada por la inteligencia de la información.
+                            👉 Un sistema de planeación de capacidad que funcione en tiempo real y esté integrado con todos los procesos de planificación, desde el diseño del producto hasta la entrega final.
                         </p>
                     </Card>
                 </div>
@@ -129,4 +112,4 @@ const ProjectDataMaster = () => {
     );
 };
 
-export default ProjectDataMaster;
+export default ProjectRCCP;

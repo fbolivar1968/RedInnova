@@ -9,11 +9,10 @@ import ProjectDetail from "./pages/ProjectDetail";
 import ProjectProgress from "./pages/ProjectProgress";
 import RegisterIdea from "./pages/RegisterIdea";
 import NotFound from "./pages/NotFound";
-import ProjectDataMaster from "./pages/DataMaster";
-import ProjectProgressDm from "./pages/ProjectProgressDm";
+import ProjectProgressRccp from "./pages/ProjectProgressRccp";
 import ProjectProgressGh from "./pages/ProjectProgressGh";
 import ProjectGh from "./pages/GH";
-
+import RCCP from "./pages/RCCP";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -26,10 +25,10 @@ const App = () => (
           <Route path="/" element={<Home />} />
           <Route path="/project/gh" element={<ProjectGh />} />
           <Route path="/projects" element={<ProjectList />} />
-          <Route path="/project/dm" element={<ProjectDataMaster />} />
+          <Route path="/project/rccp" element={<RCCP />} />
           <Route path="/project/:projectId" element={<ProjectDetail />} />
           <Route path="/progressGh" element={<ProjectProgressGh />} />
-          <Route path="/progressDm" element={<ProjectProgressDm />} />
+          <Route path="/progressRccp" element={<ProjectProgressRccp />} />
           <Route path="/progress" element={<ProjectProgress />} />
           <Route path="/register-idea" element={<RegisterIdea />} />
 

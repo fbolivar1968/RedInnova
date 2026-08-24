@@ -12,19 +12,19 @@ const stages: TimelineStage[] = [
   {
     stage: 1,
     title: "Fase 1:  Preparación y Análisis Inicial",
-    objective: "Análisis del nivel de madurez de los datos al interior de la compañía.",
+    objective: "Levantamiento de información de horas/ciclo por recurso de los últimos 6 meses",
     icon: <Lightbulb className="h-8 w-8" />,
   },
   {
     stage: 2,
     title: "Fase 2: Definición y Establecimiento de Procedimientos",
-    objective: "Establecer flujo de trabajo y conformación del equipo interdisciplinar encargado de ejecutar el proyecto.",
+    objective: "Diseño y desarrollo del aplicativo de RCCP y motor ML, integración con ITPM, desarrollo de tableros Power BI para visualización de resultados.",
     icon: <CheckCircle className="h-8 w-8" />,
   },
   {
     stage: 3,
-    title: "Fase 3: Implementación y Mejora Continua",
-    objective: "Formalizar la mejora para mantener los procesos en el tiempo de Desarrollo de herramientas para el cambio de estructura de los datos.",
+    title: "Fase 3: Validación y piloto",
+    objective: "Validación RCCP con datos históricos, consolidación de resultados del MVP con visión de despliegue, entrega del manual de usuario y documentación técnica.",
     icon: <Calendar className="h-8 w-8" />,
   },
 ];

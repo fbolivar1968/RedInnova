@@ -10,23 +10,23 @@ interface Benefit {
 const benefits: Benefit[] = [
   {
     icon: <Lightbulb className="h-10 w-10" />,
-    title: "Experiencia en desarrollo de proyectos de mejora de procesosEstandarización de los datos para mejorar la calidad y eficiencia",
-    description: "Al eliminar duplicidades y errores, se optimizan los tiempos de procesamiento y se facilita la coordinación entre los distintos departamentos, desde la producción hasta la alta dirección.",
+    title: "Consolidar RCCP por sección",
+    description: "Validar capacidad de forja, mecanizado, soldadura y ensamble en un 100% de RCCP consolidado y validado, usando ITPM, datos históricos y validación por responsables de sección, consolidando bases para un plan maestro con restricciones reales, entre MVP y despliegue.",
   },
   {
     icon: <Rocket className="h-10 w-10" />,
-    title: "Fortalecimiento de capacidades internas en gobernanza y estandarización de datos",
-    description: "Impulsamos el desarrollo de habilidades y conocimientos clave dentro de la organización para asegurar una gestión de datos más eficiente y controlada.",
+    title: "Reducir tiempo operativo",
+    description: "Se reduce el tiempo invertido en la consolidación manual de la planeación de capacidad (RCCP)",
   },
   {
     icon: <Sparkles className="h-10 w-10" />,
-    title: "Implementación de herramientas de automatización con tecnologías avanzadas",
-    description: "Se desarrollan soluciones tecnológicas que aceleran la integración y mejora de procesos, optimizando el uso de recursos y reduciendo tiempos de implementación.",
+    title: "Mejorar la precisión del plan y la visibilidad del impacto de cambios.",
+    description: "La automatización del RCCP aumenta la precisión del plan y la visibilidad del impacto de los cambios en la capacidad instalada.",
   },
   {
     icon: <Brain className="h-10 w-10" />,
-    title: "Innovación en la resolución de problemas relacionados con los datos",
-    description: "Fomentamos la creatividad para abordar desafíos como la calidad, accesibilidad y gestión de la información, impulsando la mejora continua en todas las fases del proyecto.",
+    title: "Alertas predictivas de saturación",
+    description: "Detectar utilización >85% por sección y anticipar cuellos de botella.",
   },
 ];
 

@@ -4,31 +4,31 @@ import { Card } from "@/components/ui/card";
 import Header from "@/components/Header";
 import ProgressCircle from "@/components/ProgressCircle";
 import { Users } from "lucide-react";
-import ProjectProgress from "./ProjectProgress";
+
 
 const fases = [
   {
     id: 1,
     name: "Fase 1: Preparación y Análisis Inicial",
-    improvement: "Esta fase está centrada en la sensibilización sobre la importancia de los datos y en el establecimiento de las bases para la estandarización. En ella, se busca comprender profundamente el entorno de los datos, identificar sus fuentes y cómo se gestionan dentro de la organización.",
-    progress: 100,
+    improvement: "Se levanta la información de horas/ciclo por recurso de los últimos 6 meses para tener una base de datos sólida con la cual trabajar.",
+    progress: 25,
   },
   {
     id: 2,
     name: "Fase 2: Definición y Establecimiento de Procedimientos",
-    improvement: "En esta fase, el proyecto se enfoca en definir de manera clara los objetivos y las reglas para la gobernanza de los datos, estableciendo un marco para la estandarización y el flujo de trabajo. Esta etapa también es clave para garantizar que todos los involucrados estén alineados en cuanto a los procedimientos a seguir Establecer GD, misión y alcance *Adopción de flujo de trabajo * Términos de referencia e instructivos de estandarización.* Obtención de recursos necesarios * Creación chatbot “AIVA” Para consulta de gobierno de datos.",
-    progress: 78,
+    improvement: "Se realiza el desarrollo del aplicativo RCCP y el motor de ML, permitiendo la integración con ITPM y la creación de dashboards en Power BI para el análisis de datos.",
+    progress: 0,
   },
   {
     id: 3,
-    name: "Fase 3: Implementación y Mejora Continua",
-    improvement: " Desarrollo de herramientas para el cambio de estructura de datos (Generador de códigos) *Mejorar y prevenir errores * Comunicación de acciones, feedback y mejora continua  ",
-    progress: 37,
+    name: "Fase 3: Validación y piloto",
+    improvement: "Se valida el RCCP con datos históricos y se presentan los resultados consolidados con visión de despliegue, junto con el manual de usuario y la documentación técnica del proyecto.",
+    progress: 0,
   },
 
 ];
 
-const ProjectProgressDm = () => {
+const ProjectProgressRccp = () => {
   const navigate = useNavigate();
 
   return (
@@ -50,7 +50,7 @@ const ProjectProgressDm = () => {
           </h1>
 
           <p className="text-center text-white/80 mb-12 text-lg">
-            Seguimiento del progreso de cada Fase del proyecto DataMaster
+            Seguimiento del progreso de cada Fase del proyecto RCCP
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -89,4 +89,4 @@ const ProjectProgressDm = () => {
   );
 };
 
-export default ProjectProgressDm;
+export default ProjectProgressRccp;

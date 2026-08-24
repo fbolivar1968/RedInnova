@@ -15,11 +15,11 @@ const projects = [
 
   },
   {
-    id: "dm",
+    id: "RCCP",
     icon: ChartPie,
-    name: "DM",
-    fullName: "Data Master",
-    description: "Gobernanza de datos Forjas Bolívar",
+    name: "RCCP",
+    fullName: "Planeación RCCP",
+    description: "Plataforma RCCP de Planeación",
   },
   {
     id: "gh",
