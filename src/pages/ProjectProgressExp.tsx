@@ -5,31 +5,45 @@ import Header from "@/components/Header";
 import ProgressCircle from "@/components/ProgressCircle";
 import { Users } from "lucide-react";
 
-const link = "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgDuGKZaL2O6T5Y1IRRjq6JBAbAXvEV5rGkeqm9WAf0Vjv0?e=jQjTVn";
-
+const link = "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgBukNp8rGT1RYN59XvK4Io1AVS56gOgLVIct-SI_vIVk10?e=pw9pgE"
 const fases = [
   {
     id: 1,
-    name: "Fase 1: Preparación y Análisis Inicial",
-    improvement: "Se levanta la información de horas/ciclo por recurso de los últimos 6 meses para tener una base de datos sólida con la cual trabajar.",
-    progress: 25,
+    name: "Fase 1: Identificación del problema",
+    improvement: `• Confirmar problema, alcance y objetivos.  
+    •Identificar usuarios clave. 
+    •Priorizar funcionalidades del MVP. 
+    •Formalizar patrocinio, recursos y criterios de éxito. `,
+    progress: 30,
   },
   {
     id: 2,
-    name: "Fase 2: Definición y Establecimiento de Procedimientos",
-    improvement: "Se realiza el desarrollo del aplicativo RCCP y el motor de ML, permitiendo la integración con ITPM y la creación de dashboards en Power BI para el análisis de datos.",
-    progress: 0,
+    name: "Fase 2: Diagnóstico, Mapeo de Flujo (VSM) y Requisitos",
+    improvement: `• Levantar línea base de traslados, trazabilidad, tiempos, discrepancias y visibilidad. 
+    • Analizar causas raíz. 
+    • Mapear flujo actual. 
+    • Identificar brechas.`,
+    progress: 20,
   },
   {
     id: 3,
-    name: "Fase 3: Validación y piloto",
-    improvement: "Se valida el RCCP con datos históricos y se presentan los resultados consolidados con visión de despliegue, junto con el manual de usuario y la documentación técnica del proyecto.",
+    name: "Fase 3: Desarrollo de la Solución Digital",
+    improvement: `• Diseñar y desarrollar la PWA/Híbrida, construir solicitudes, dashboard, ejecución móvil, observaciones,
+    integración ERP/PSL, reportes, control de calidad y permisos.`,
     progress: 0,
   },
-
+  {
+    id: 4,
+    name: "Fase 4: Implementación Piloto, Capacitación y Despliegue",
+    improvement: `• Ejecución de prueba piloto en áreas seleccionadas de expedición y logística interna.
+    • Capacitación y entrenamiento estructurado al equipo operativo y administrativo.
+    • Monitoreo de indicadores clave (OTIF, tiempos de ciclo, precisión de despachos).
+    • Ajustes finales, documentación de lecciones aprendidas y despliegue definitivo.`,
+    progress: 0,
+  },
 ];
 
-const ProjectProgressRccp = () => {
+const ProjectProgressExp = () => {
   const navigate = useNavigate();
 
   return (
@@ -40,8 +54,8 @@ const ProjectProgressRccp = () => {
         <div className="max-w-7xl mx-auto">
           <Button
             variant="ghost"
-            onClick={() => navigate("/project/dm")}
-            className="mb-8 text-white hover:text-primary"
+            onClick={() => navigate("/project/exp")}
+            className="mb-8 text-white hover:text-white"
           >
             ← Volver al proyecto
           </Button>
@@ -50,9 +64,11 @@ const ProjectProgressRccp = () => {
             Avance del Proyecto
           </h1>
 
+
           <p className="text-center text-white/80 mb-12 text-lg">
-            Seguimiento del progreso de cada Fase del proyecto RCCP
+            Seguimiento del progreso de cada Fase del proyecto Logística Interna y Expedición
           </p>
+
           <div className="flex justify-center my-4">
             <Button
               variant="outline"
@@ -91,6 +107,7 @@ const ProjectProgressRccp = () => {
                 </div>
               </Card>
             ))}
+
           </div>
         </div>
       </main>
@@ -98,4 +115,4 @@ const ProjectProgressRccp = () => {
   );
 };
 
-export default ProjectProgressRccp;
+export default ProjectProgressExp;

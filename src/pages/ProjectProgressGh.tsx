@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import ProgressCircle from "@/components/ProgressCircle";
 import { Users } from "lucide-react";
 
+const link = "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgBC_7f9YMuCQJsX-hxQCQGvAW_KvIfQZH32TcFq6p_ijL0?e=jkb9MJ";
 
 const fases = [
   {
@@ -71,6 +72,16 @@ const ProjectProgressGh = () => {
           <p className="text-center text-white/80 mb-12 text-lg">
             Seguimiento del progreso de cada Fase del proyecto Gestión de Herramentales
           </p>
+
+          <div className="flex justify-center my-4">
+            <Button
+              variant="outline"
+              onClick={() => window.open(link, "_blank")}
+              className="text-primary hover:text-white"
+            >
+              Acceder al espacio de trabajo
+            </Button>
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {fases.map((fase, index) => (

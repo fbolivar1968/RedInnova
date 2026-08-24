@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Header from "@/components/Header";
-import { ArrowRight, Anvil, Rocket, ChartPie } from 'lucide-react';
+import { ArrowRight, Anvil, Rocket, ChartPie, Truck } from 'lucide-react';
 
 
 const projects = [
@@ -27,6 +27,13 @@ const projects = [
     name: "GH",
     fullName: "Gestion de Herramentales",
     description: "Gestion de herramentales",
+  },
+  {
+    id: "exp",
+    icon: Truck,
+    name: "EXP",
+    fullName: "Logística Interna y Expedición",
+    description: "Optimización del flujo de expedición y logística interna con enfoque Lean Agile",
   },
 ];
 

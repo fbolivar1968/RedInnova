@@ -11,8 +11,10 @@ import RegisterIdea from "./pages/RegisterIdea";
 import NotFound from "./pages/NotFound";
 import ProjectProgressRccp from "./pages/ProjectProgressRccp";
 import ProjectProgressGh from "./pages/ProjectProgressGh";
+import ProjectProgressExp from "./pages/ProjectProgressExp";
 import ProjectGh from "./pages/GH";
 import RCCP from "./pages/RCCP";
+import ProjectExp from "./pages/Exp";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -24,11 +26,13 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project/gh" element={<ProjectGh />} />
+          <Route path="/project/exp" element={<ProjectExp />} />
           <Route path="/projects" element={<ProjectList />} />
           <Route path="/project/rccp" element={<RCCP />} />
           <Route path="/project/:projectId" element={<ProjectDetail />} />
           <Route path="/progressGh" element={<ProjectProgressGh />} />
           <Route path="/progressRccp" element={<ProjectProgressRccp />} />
+          <Route path="/progressExp" element={<ProjectProgressExp />} />
           <Route path="/progress" element={<ProjectProgress />} />
           <Route path="/register-idea" element={<RegisterIdea />} />
 

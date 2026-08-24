@@ -52,15 +52,6 @@ const equipos = [
   },
   {
     id: 10,
-    name: "RCCP",
-    improvement: `Implementar un sistema de planificación de capacidad basado en IA, integrado con ITPM, RCCP por sección y datos históricos. 
-    El sistema permitirá calcular capacidades reales, detectar saturaciones con anticipación, predecir incumplimientos y recomendar acciones 
-    como re-secuenciación u outsourcing, reduciendo tiempos operativos y elevando la confiabilidad del plan. `,
-    progress: 10,
-    Link: ""
-  },
-  {
-    id: 11,
     name: "Cotizaciones",
     improvement: ` Implementación incremental de un Asistente Inteligente de Cotizaciones que digitalice, estandarice y automatice el proceso actual, 
     incorporando IA para interpretar solicitudes, centralizar conocimiento técnico y asistir la elaboración de ofertas.`,
@@ -68,7 +59,7 @@ const equipos = [
     Link: "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgD5iNHKp3yTRarQPnqN-4PRAc_Gry9xUrkqtG3t3rxlPM8?e=M6nIe3"
   },
   {
-    id: 12,
+    id: 11,
     name: "Reportes Calidad",
     improvement: `Automatizar la generación y validación de certificados de calidad a partir de información de pedidos, órdenes de compra, archivos Excel y 
     certificados/PDF de materiales`,
