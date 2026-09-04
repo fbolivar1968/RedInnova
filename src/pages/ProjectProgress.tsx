@@ -13,7 +13,7 @@ const equipos = [
                   especialmente el Informe de Costos Mensual general por producto entregado al cliente, 
                   que actualmente requiere descargar datos brutos de PSL, manipularlos extensamente en Excel, 
                   añadir fórmulas y columnas manuales, realizar conciliaciones y crear visualizaciones.`,
-    progress: 10,
+    progress: 15,
     Link: "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgBV-9UntCkPQoccz4VhHXzuARgXT3U8jvJx9LL5viZmnsY?email=ccastano%40forjasbolivar.com&e=aJTT1h"
   },
   {
@@ -23,7 +23,7 @@ const equipos = [
                   actualmente manual, repetitivo y dependiente de archivos Excel y de personas clave. La solución integra un pipeline de datos en Python y 
                   flujos de Power Automate para consolidar información, generar una sábana de datos estandarizada, enviar notificaciones a clientes y 
                   distribuir informes de recaudo. `,
-    progress: 10,
+    progress: 15,
     Link: "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgAFCcr63VrgQpef9DAxXjo8AUMXYaxB4ULgBNA7WvA9ufk?email=financiera%40forjasbolivar.com&e=AZhoyK"
   },
   {
@@ -32,26 +32,18 @@ const equipos = [
     improvement: `Diseñar e implementar una plataforma colaborativa en la nube que centralice y estandarice la información de compras 
     internacionales y operaciones logísticas (importaciones, exportaciones, nacionales y urbanas), permitiendo la trazabilidad end-to-end 
     desde la orden de compra u orden de venta hasta la entrega final, con acceso en línea y en tiempo real para todos los usuarios internos. `,
-    progress: 10,
+    progress: 15,
     Link: "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgBYN9Cew3KKRZhh5oSM5MVNAUfC6xnxL2QMbdd5pkoH_PI?e=pjic1w"
   },
   {
     id: 8,
-    name: "Biblioteca interactiva",
-    improvement: `Centralizar el conocimiento técnico, reducir tiempos de búsqueda y cálculo, eliminar errores de transcripción manual y 
-    convertir la información dispersa en una fuente de verdad institucional para Diseño, Proyectos y Operaciones. `,
-    progress: 10,
-    Link: "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgBuF0lL6lELRIcp1Qch31AMAeaPXftbEh0rLSle-CBt0aI?e=ealAV8"
-  },
-  {
-    id: 9,
     name: "Detalle Pedido",
     improvement: `Migrar progresivamente el excel maestro de detalle pedido a una plataforma colaborativa donde se pueda gestionar la información de manera segura, integral y confiable `,
-    progress: 10,
+    progress: 15,
     Link: "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgCWEt2-rOy_R7PqoidSe_xeAbd22R9lCm7XGcsFxZR-gKQ?e=EOseTK"
   },
   {
-    id: 10,
+    id: 9,
     name: "Cotizaciones",
     improvement: ` Implementación incremental de un Asistente Inteligente de Cotizaciones que digitalice, estandarice y automatice el proceso actual, 
     incorporando IA para interpretar solicitudes, centralizar conocimiento técnico y asistir la elaboración de ofertas.`,
@@ -59,11 +51,11 @@ const equipos = [
     Link: "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgD5iNHKp3yTRarQPnqN-4PRAc_Gry9xUrkqtG3t3rxlPM8?e=M6nIe3"
   },
   {
-    id: 11,
+    id: 10,
     name: "Reportes Calidad",
     improvement: `Automatizar la generación y validación de certificados de calidad a partir de información de pedidos, órdenes de compra, archivos Excel y 
     certificados/PDF de materiales`,
-    progress: 10,
+    progress: 15,
     Link: "https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgDFX6aafsezTbaqUUpkgeMSAcRo718tYp_r1YNUtQJ_oV4?e=R2xoD8"
   },
 

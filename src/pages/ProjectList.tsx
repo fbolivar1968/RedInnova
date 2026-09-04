@@ -35,6 +35,13 @@ const projects = [
     fullName: "Logística Interna y Expedición",
     description: "Optimización del flujo de expedición y logística interna con enfoque Lean Agile",
   },
+  {
+    id: "BBI",
+    icon: Truck,
+    name: "BBI",
+    fullName: "Biblioteca Interactiva",
+    description: "Plataforma de consulta de normas y diseño para el diseño de planos",
+  },
 ];
 
 const ProjectList = () => {
