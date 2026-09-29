@@ -99,8 +99,8 @@ const ProjectCertOC = () => {
           <BenefitCertOC />
 
           {/* Call to Action */}
-          <Card className="p-12 bg-gradient-to-br from-primary/20 to-secondary/20 backdrop-blur-sm border-2 border-primary text-center animate-pulse-glow">
-            <p className="text-xl text-foreground">
+          <Card className="p-12 bg-gradient-to-br from-primary/20 to-secondary/20 backdrop-blur-sm border-2 border-primary text-center hover:scale-105 transition-all duration-300">
+            <p className="text-xl text-black/80">
               👉 Certificado de Orden de Compra Automatizado, <br />
               cumplimiento de los requisitos de la norma AS9100D
             </p>

@@ -98,11 +98,11 @@ const ProjectBInt = () => {
           <BenefitBInt />
 
           {/* Call to Action */}
-          <Card className="p-12 bg-gradient-to-br from-primary/20 to-secondary/20 backdrop-blur-sm border-2 border-primary text-center animate-pulse-glow">
-            <h3 className="text-2xl font-bold text-white mb-2">
+          <Card className="p-12 bg-gradient-to-br from-primary/20 to-secondary/20 backdrop-blur-sm border-2 border-primary text-center hover:scale-105 transition-all duration-300">
+            <h3 className="text-2xl font-bold text-black mb-2">
               Ingeniería ágil, estandarizada y potenciada por inteligencia artificial
             </h3>
-            <p className="text-lg text-white/80">
+            <p className="text-lg text-black/80">
               👉 Transformando el conocimiento técnico disperso en una fuente única de verdad para el diseño y la fabricación de precisión en Forjas Bolívar.
             </p>
           </Card>
