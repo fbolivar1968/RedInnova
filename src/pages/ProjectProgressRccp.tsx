@@ -40,7 +40,7 @@ const ProjectProgressRccp = () => {
         <div className="max-w-7xl mx-auto">
           <Button
             variant="ghost"
-            onClick={() => navigate("/project/dm")}
+            onClick={() => navigate("/project/RCCP")}
             className="mb-8 text-white hover:text-primary"
           >
             ← Volver al proyecto

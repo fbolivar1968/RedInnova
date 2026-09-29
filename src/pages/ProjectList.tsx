@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Header from "@/components/Header";
-import { ArrowRight, Anvil, Rocket, ChartPie, Truck } from 'lucide-react';
+import { ArrowRight, Anvil, Rocket, ChartPie, Truck, File, BookOpenText } from 'lucide-react';
 
 
 const projects = [
@@ -36,11 +36,18 @@ const projects = [
     description: "Optimización del flujo de expedición y logística interna con enfoque Lean Agile",
   },
   {
-    id: "BBI",
-    icon: Truck,
-    name: "BBI",
+    id: "BInt",
+    icon: BookOpenText,
+    name: "BInt",
     fullName: "Biblioteca Interactiva",
-    description: "Plataforma de consulta de normas y diseño para el diseño de planos",
+    description: "Plataforma de consulta de normas y cálculos para el diseño de planos",
+  },
+  {
+    id: "certOC",
+    icon: File,
+    name: "certOC",
+    fullName: "Certificado de Compras",
+    description: "Certificado de compras con soportes de cotización y orden de compra",
   },
 ];
 

@@ -15,6 +15,10 @@ import ProjectProgressExp from "./pages/ProjectProgressExp";
 import ProjectGh from "./pages/GH";
 import RCCP from "./pages/RCCP";
 import ProjectExp from "./pages/Exp";
+import ProjectCertOC from "./pages/CertOC";
+import ProjectBInt from "./pages/BInt";
+import ProjectProgressBInt from "./pages/ProjectProgressBInt";
+import ProjectProgressCertOC from "./pages/ProjectProgressCertOC";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -29,13 +33,19 @@ const App = () => (
           <Route path="/project/exp" element={<ProjectExp />} />
           <Route path="/projects" element={<ProjectList />} />
           <Route path="/project/rccp" element={<RCCP />} />
+          <Route path="/project/RCCP" element={<RCCP />} />
+          <Route path="/project/certOC" element={<ProjectCertOC />} />
+          <Route path="/project/BInt" element={<ProjectBInt />} />
+          <Route path="/project/bint" element={<ProjectBInt />} />
+          <Route path="/project/ofv" element={<ProjectDetail />} />
           <Route path="/project/:projectId" element={<ProjectDetail />} />
           <Route path="/progressGh" element={<ProjectProgressGh />} />
           <Route path="/progressRccp" element={<ProjectProgressRccp />} />
           <Route path="/progressExp" element={<ProjectProgressExp />} />
           <Route path="/progress" element={<ProjectProgress />} />
           <Route path="/register-idea" element={<RegisterIdea />} />
-
+          <Route path="/progressBInt" element={<ProjectProgressBInt />} />
+          <Route path="/progressCertOC" element={<ProjectProgressCertOC />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
