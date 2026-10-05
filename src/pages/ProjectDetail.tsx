@@ -98,6 +98,7 @@ const ProjectDetail = () => {
                   Se enviará al correo el acceso a la carpeta "reto 30-60-90". Dentro están los formatos DMAIC,
                   Project Charter y mapa de Gantt.
                 </p>
+                <a className="text-orange-600 text-lg hover:text-orange-400" href="https://forjasbolivar.sharepoint.com/:f:/s/POSEIDON/IgA61i6nsKP7SrhPH1a-AQMWAdiZp2g0t5BPaVcSeTiIuuk?e=eXADSe">Grabaciones</a>
               </Card>
             </div>
           </section>
