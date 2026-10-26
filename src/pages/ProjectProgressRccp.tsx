@@ -12,13 +12,13 @@ const fases = [
     id: 1,
     name: "Fase 1: Preparación y Análisis Inicial",
     improvement: "Se levanta la información de horas/ciclo por recurso de los últimos 6 meses para tener una base de datos sólida con la cual trabajar.",
-    progress: 25,
+    progress: 50,
   },
   {
     id: 2,
     name: "Fase 2: Definición y Establecimiento de Procedimientos",
     improvement: "Se realiza el desarrollo del aplicativo RCCP y el motor de ML, permitiendo la integración con ITPM y la creación de dashboards en Power BI para el análisis de datos.",
-    progress: 0,
+    progress: 15,
   },
   {
     id: 3,
