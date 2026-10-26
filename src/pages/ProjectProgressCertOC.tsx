@@ -30,13 +30,13 @@ const fases = [
         improvement: `•Realizar primer MVP con archivos PDF,
         •Realizar segundo MVP con imagenes y archivos CAD ,
         •Realizar pruebas del MVP y recopilar feedback .`,
-        progress: 0,
+        progress: 100,
     },
     {
         id: 4,
         name: "Fase 4: Controlar y Sostener / Piloto, Gobernanza y Despliegue",
         improvement: `Implementación del certificado de compras, documentación y capacitación a usuarios`,
-        progress: 0,
+        progress: 90,
     },
 ];
 
