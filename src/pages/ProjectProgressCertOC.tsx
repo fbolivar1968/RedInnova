@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 import ProgressCircle from "@/components/ProgressCircle";
 import { Users } from "lucide-react";
 
-const link = "https://forjasbolivar.sharepoint.com/:f:/r/sites/POSEIDON/Transformacin%20Digital/Proyectos/2026/13.%20CertificadosCalidad/2_Dllo_Producto/Lean_Agile?d=w9aa65fc5c77e4db3b6aa514a6481e312&csf=1&web=1&e=hBY0v1https://forjasbolivar.sharepoint.com/:f:/r/sites/POSEIDON/Transformacin%20Digital/Proyectos/2026/14.%20Biblioteca%20Virtual%20de%20Ingenier%C3%ADa%20con%20Calculadoras%20Normativas%20y%20IA/2_Dllo_Producto/Lean-Agile?d=w4b49176e51ea440b8729d50721df500c&csf=1&web=1&e=mcFVP9";
+const link = "https://forjasbolivar.sharepoint.com/:f:/r/sites/POSEIDON/Transformacin%20Digital/Proyectos/2026/15.ComprasAs9100D/2_Dllo_Producto/Lean-Agile?d=w4b9a3ad6dce4448e914786ed18d039a9&csf=1&web=1&e=tBNCf2";
 
 const fases = [
     {
